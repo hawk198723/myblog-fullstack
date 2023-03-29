@@ -1,5 +1,6 @@
 import React from "react";
 import CreatePost from "./PostSectionFolder/CreatePost";
+import Posts from "./PostSectionFolder/Posts";
 
 const Feed = () => {
   return (
@@ -8,6 +9,7 @@ const Feed = () => {
         {/* Post Box */}
         <CreatePost />
         {/* Posts */}
+        <Posts />
       </div>
     </div>
   );
