@@ -25,21 +25,25 @@ const RightSidebar = () => {
       <Contacts
         src="https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/2/tiger-woods-2019-masters-tournament-champion-april-22-2019-sports-illustrated-cover.jpg"
         name="Jason"
+        status="Online"
       />
 
       <Contacts
         src="https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/2/a-star-is-born-michael-jordan-lights-up-the-nba-december-10-1984-sports-illustrated-cover.jpg"
         name="Bryan"
+        status="Online"
       />
 
       <Contacts
         src="https://render.fineartamerica.com/images/images-profile-flow/400/images-medium-large-5/4-johnny-cash-retro-images-archive.jpg"
         name="Peter"
+        status="Online"
       />
 
       <Contacts
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/800px-2021_Facebook_icon.svg.png"
         name="Nina"
+        status="Offline"
       />
     </div>
   );
