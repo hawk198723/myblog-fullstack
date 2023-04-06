@@ -6,9 +6,10 @@ import { FaRegSmile } from "react-icons/fa";
 import { RiDeleteBinFill } from "react-icons/ri";
 import { useDispatch } from "react-redux";
 import { addPost } from "@/public/src/features/postSlice";
+import axios from "axios";
 
 const CreatePost = () => {
-  const FACEBOOK_CLONE_ENDPOINT = "";
+  const FACEBOOK_CLONE_ENDPOINT = "http://localhost:8080/api/v1/post";
   const { data: session } = useSession();
   const inputRef = useRef(null);
   const hiddenFileInput = useRef(null);
